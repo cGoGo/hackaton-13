@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAI;EACH,UAAU,ECDH,OAAO",
-"sources": ["../sass/base/_global.scss","../sass/helper/_variables.scss"],
+"mappings": "AAAA,GAAI;EACH,UAAU,ECDH,OAAO;;ACAf,MAAO;EACN,UAAU,EAAE,iBAAiB",
+"sources": ["../sass/base/_global.scss","../sass/helper/_variables.scss","../sass/pages/_footer.scss"],
 "names": [],
 "file": "main.css"
 }
