@@ -1,6 +1,35 @@
 footer {
-	border-top: 1px solid #DDD1D1;
+	margin-bottom: $mg-20;
 	h5 {
-		color: ;
-	}	
+		color: $color-primary;
+		font-weight: bold;
+		font-size: 1.4rem;
+		margin: $mg-20 0;
+	}
+	hr{
+		border: 1px solid $color-grey;
+	}
+	li{
+		line-height: 28px;
+	}
+	a{
+		color: $color-dark;
+		font-size: 1.2rem;
+		&:hover{
+			color: $color-primary;
+		}
+	}
+	.logo-footer{
+		margin: $mg-20 0;
+	}
+	.socials{
+		max-width: 10%;
+		width: 15%;
+	}
+	span{
+		display: block;
+	}
+	.icons-footer{
+		margin-top: -6%;
+	}
 }
