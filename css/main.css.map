@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACH,UAAU,ECDH,OAAO",
+"sources": ["../sass/base/_global.scss","../sass/helper/_variables.scss"],
+"names": [],
+"file": "main.css"
+}
