@@ -6,6 +6,8 @@ nav {
   height: 85px; }
   nav .logo {
     margin-top: 9px; }
+  nav .menu-ham {
+    color: #e51960; }
   nav .nav-menu {
     margin-left: 100px; }
     nav .nav-menu a {
@@ -14,7 +16,36 @@ nav {
       padding: 5.5px;
       border: 5px solid #1E2020; }
       nav .nav-menu a:hover {
-        border-bottom: 5px solid pink; }
+        border-bottom: 5px solid #e51960; }
+  nav .side-nav {
+    background: #e51960; }
+    nav .side-nav li a {
+      color: white;
+      font-size: 16px; }
+    nav .side-nav li input[type="search"] {
+      width: 65px;
+      /*ancho por defecto*/
+      background: #ededed url("search-icon.png") no-repeat 9px center;
+      /*icono lupa*/
+      padding: 1px 10px 1px 32px;
+      border-radius: 15em;
+      -webkit-transition: all .5s;
+      /* transici├│n de .5seg a todos los elementos para chrome*/
+      -moz-transition: all .5s;
+      /* transici├│n de .5seg a todos los elementos para mozilla*/
+      -o-transition: all .5s;
+      /* transici├│n de .5seg a todos los elementos para ophera*/
+      transition: all .5s;
+      /* transici├│n de .5seg a todos los elementos*/
+      outline: none;
+      /* ocultar el fucos autom├ítico de los input */ }
+    nav .side-nav li input[type="search"]:focus {
+      width: 130px;
+      /*tama├▒o del boton buscar al hacer click*/
+      padding-left: 32px;
+      /*espacio entre el icono lupa y el placeholder*/
+      color: #000;
+      background-color: #FFF; }
   nav .cont-logo13 .text-logo13 {
     margin: 15px 10px;
     font: 11px "Montserrat", sans-serif;
