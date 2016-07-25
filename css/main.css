@@ -1,4 +1,29 @@
 nav {
-  background: #1E2020; }
+  background-color: #1E2020;
+  height: 85px; }
+  nav .logo {
+    margin-top: 9px; }
+  nav .nav-menu {
+    margin-left: 100px; }
+    nav .nav-menu a {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      padding: 5.5px;
+      border: 5px solid #1E2020; }
+      nav .nav-menu a:hover {
+        border-bottom: 5px solid pink; }
+  nav .cont-logo13 .text-logo13 {
+    margin: 15px 10px;
+    font: 11px "Montserrat", sans-serif;
+    color: #bcbcbc;
+    position: relative; }
+  nav .cont-logo13 .rrss-header {
+    position: absolute;
+    margin-top: -40px; }
+    nav .cont-logo13 .rrss-header a {
+      font-size: 20px;
+      margin-left: 10px; }
+      nav .cont-logo13 .rrss-header a:hover {
+        opacity: 0.5; }
 
 /*# sourceMappingURL=main.css.map */
