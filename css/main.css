@@ -29,6 +29,33 @@ nav {
       nav .cont-logo13 .rrss-header a:hover {
         opacity: 0.5; }
 
+article .publicidad {
+  margin: 20px 110px; }
+
+#photoShow {
+  border: 5px solid #fff;
+  height: 430px;
+  width: 86%;
+  -moz-box-shadow: 0px 0px 25px black;
+  -webkit-box-shadow: 0px 0px 25px black;
+  box-shadow: 0px 0px 25px black; }
+  #photoShow .slider-img {
+    width: 85%; }
+
+#photoShow div {
+  position: absolute;
+  z-index: 0; }
+
+#photoShow div.previous {
+  z-index: 1; }
+
+#photoShow div.current {
+  z-index: 2; }
+
+.gif {
+  width: 250px;
+  margin-left: -110px; }
+
 footer {
   margin-bottom: 20px; }
   footer h5 {
