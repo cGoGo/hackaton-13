@@ -1,0 +1,39 @@
+nav {
+	background-color: $black;
+	height: 85px;
+	.logo {
+		margin-top: 9px;
+	}
+	.nav-menu {
+		margin-left: 100px;
+		a {
+			font-family: $montse;
+			font-size: 18px;
+			padding: 5.5px;
+			border: 5px solid $black;
+			&:hover {
+				border-bottom: 5px solid pink;
+			}
+		}
+	}
+	.cont-logo13 {
+		.text-logo13 {
+			margin: 15px 10px;
+			font: 11px $montse;
+			color: #bcbcbc;
+			position: relative;
+		}
+		.rrss-header {
+			position: absolute;
+			margin-top: -40px;
+			a {
+				font-size: 20px;
+				margin-left: 10px;
+				&:hover {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}
+
