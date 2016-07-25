@@ -4,6 +4,9 @@ nav {
 	.logo {
 		margin-top: 9px;
 	}
+	.menu-ham {
+		color: $color-primary;
+	}
 	.nav-menu {
 		margin-left: 100px;
 		a {
@@ -12,9 +15,36 @@ nav {
 			padding: 5.5px;
 			border: 5px solid $black;
 			&:hover {
-				border-bottom: 5px solid pink;
+				border-bottom: 5px solid $color-primary;
 			}
 		}
+	}
+	.side-nav {
+		background: $color-primary;
+		li {
+			a {
+				color: white;
+				font-size: 16px;
+			}
+			input[type="search"]{
+				width: 65px; /*ancho por defecto*/
+				background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa*/
+				padding: 1px 10px 1px 32px;
+				border-radius: 15em;
+				-webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+				-moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+				-o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+				transition: all .5s; /* transición de .5seg a todos los elementos*/
+				outline: none; /* ocultar el fucos automático de los input */
+			}
+			input[type="search"]:focus{
+				width: 130px; /*tamaño del boton buscar al hacer click*/
+				padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+				color: #000;
+				background-color: #FFF;
+			}
+		}
+		
 	}
 	.cont-logo13 {
 		.text-logo13 {
